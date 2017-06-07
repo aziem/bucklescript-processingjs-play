@@ -1,0 +1,21 @@
+{
+   "name": "bs-processing-example",
+   "version": "0.1.1",
+   "description": "Example of using Bucklescript with Processing.js",
+   "main": "lib/js/src/processingExample.js",
+   "files": [
+      "lib/js",
+      "src"
+   ],
+   "scripts": {
+      "bs": "bsb -make-world",
+      "webpack": "webpack",
+      "bs:watch": "bsb -make-world -w",
+      "webpack:watch": "webpack -w"
+   },
+   "dependencies": {
+      "bs-platform": "^1.7.4",
+      "processing-js": "^1.6.6",
+      "webpack": "^2.6.1"
+   }
+}
